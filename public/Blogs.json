@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "The Art of Programming",
+      "cover": "https://i.ibb.co/vLwmB0x/karl-pawlowicz-QUHuwy-Ng-SA0-unsplash.jpg",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/cDjPjPw/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
+      "posted_date": "2024-05-01",
+      "reading_time": 10,
+      "hashtag": ["programming", "coding", "development"]
+    },
+    {
+      "id": 2,
+      "title": "Exploring the Universe",
+      "cover": "https://i.ibb.co/5RTmJTJ/pakata-goh-EJMTKCZ00-I0-unsplash.jpg",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/cDjPjPw/christian-buehner-DIt-Ylc26z-VI-unsplash.jpg",
+      "posted_date": "2024-04-28",
+      "reading_time": 15,
+      "hashtag": ["space", "cosmos", "exploration"]
+    },
+    {
+      "id": 3,
+      "title": "Cooking with Passion",
+      "cover": "https://i.ibb.co/wBNT0cP/fotis-fotopoulos-6s-Al6a-Q4-OWI-unsplash.jpg",
+      "author": "Chef Michael",
+      "author_img": "https://i.ibb.co/S6XkJYx/foto-sushi-6anudmp-ILw4-unsplash.jpg",
+      "posted_date": "2024-05-02",
+      "reading_time": 12,
+      "hashtag": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": 4,
+      "title": "Financial Freedom",
+      "cover": "https://i.ibb.co/njG1k20/james-harrison-vp-Oe-Xr5wm-R4-unsplash.jpg",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co/QcCh30v/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg",
+      "posted_date": "2024-04-30",
+      "reading_time": 20,
+      "hashtag": ["finance", "investing", "money"]
+    },
+    {
+      "id": 5,
+      "title": "Healthy Living Guide",
+      "cover": "https://i.ibb.co/GMP2BFT/emre-YIOn-WHJYm1w-unsplash.jpg",
+      "author": "Dr. Emily",
+      "author_img": "https://i.ibb.co/k4TNK6D/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+      "posted_date": "2024-05-03",
+      "reading_time": 18,
+      "hashtag": ["health", "wellness", "fitness"]
+    }
+  ]
+  
