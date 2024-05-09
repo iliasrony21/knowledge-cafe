@@ -3,7 +3,7 @@ import './Blog.css'
 import { CiBookmark } from 'react-icons/ci';
 const Blog = ({ blog,handleBookmark,handleReadTime}) => {
     // console.log(blog);
-    const {title,cover,author,author_img,posted_date,reading_time,hashtag} = blog;
+    const {id,title,cover,author,author_img,posted_date,reading_time,hashtag} = blog;
     return (
         <div className='blog-container mb-4'>
             <img className='images' src={cover} alt="" />
@@ -26,7 +26,7 @@ const Blog = ({ blog,handleBookmark,handleReadTime}) => {
             }
             <div>
 
-             <button onClick={() => handleReadTime(reading_time)} className='text-purple-600 underline my-3'>Mark As Read</button>      
+             <button onClick={() => handleReadTime(id,reading_time)} className='text-purple-600 underline my-3'>Mark As Read</button>      
             </div>
         </div>
     );

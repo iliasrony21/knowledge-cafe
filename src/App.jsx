@@ -13,11 +13,13 @@ function App() {
    const bookmarkList = [...bookmarks,blog];
    setBookmarks(bookmarkList);
   }
-  const handleReadTime = time =>{
+  const handleReadTime = (id,time) =>{
     console.log('clicked read',time);
     const readTime = readTimes + time;
     setReadTimes(readTime);
     // console.log('readtime pamo',readtime);
+    const removeId = bookmarks.filter(deleted => deleted.id !== id);
+    setBookmarks(removeId);
   }
 
   return (
